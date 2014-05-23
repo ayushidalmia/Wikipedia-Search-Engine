@@ -3,6 +3,14 @@ Wikipedia-Search-Engine
 
 This repository consists of the mini project done as part of the course Information Retrieval and Extraction - Spring 2014. The course was instructed by [Dr. Vasudeva Varma](http://faculty.iiit.ac.in/~vv/Home.html). 
 
+##Requirement
+Python 2.6 or above
+
+Python libraries:
+
+* Porter Stemmer
+* XML Parser
+
 ##Problem
 The mini project involves building a search engine on the Wikipedia Data Dump without using any external index. For this project we use the data dump of 2013 of size 43 GB. The search results returns in real time. Multi word and multi field search on Wikipedia Corpus is implemented. SAX Parser is used to parse the XML Corpus. After parsing the following morphological operations are implemented:
 
