@@ -3,7 +3,7 @@ Wikipedia-Search-Engine
 
 This repository consists of the mini project done as part of the course Information Retrieval and Extraction - Spring 2014. The course was instructed by [Dr. Vasudeva Varma](http://faculty.iiit.ac.in/~vv/Home.html). 
 
-##Requirement
+##Requirements
 Python 2.6 or above
 
 Python libraries:
