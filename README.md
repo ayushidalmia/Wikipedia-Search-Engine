@@ -3,7 +3,7 @@ Wikipedia-Search-Engine
 
 This repository consists of the mini project done as part of the courses undertaken Information Retrieval and Extraction - Spring 2014. The mini project involves building a search engine on the Wikipedia Data Dump without using any external index. For this project we use the data dump of 2013 of size 43 GB. The search results returns in real time.
 
-#Problem
+##Problem
 Multi word and multi field search on Wikipedia Corpus is implemented. SAX Parser is used to parse the XML Corpus. After parsing the following morphological operations are implemented:
 
 * Casefolding: Casefolding is easily done.
@@ -19,7 +19,7 @@ Along with these I have also stored the offsets of each of the field files. This
 
 The src folder contains the following files:
 
-##Main Functions:
+###Main Functions:
 
 *wikiIndexer.py
 This function takes as input the corpus and creates the entire index in field separated manner. Along with the field files, it also creates the offsets for the same. It also creates a map for the title and the document id along with its offset. Apart from this it also creates the vocabulary List
@@ -33,7 +33,7 @@ This function takes as input the query and returns the top ten results from the 
 In order to run this code run the following:
 **python search.py ./outputFolderPath**
 
-##Helper Functions:
+###Helper Functions:
 
 *textProcessing.py 
 This helper function does all the preprocessing. It acts as helper for search.py, wikiIndexer.py
