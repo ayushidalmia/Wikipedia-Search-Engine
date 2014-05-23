@@ -21,13 +21,13 @@ The src folder contains the following files:
 
 ###Main Functions:
 
-*wikiIndexer.py
+* wikiIndexer.py
 This function takes as input the corpus and creates the entire index in field separated manner. Along with the field files, it also creates the offsets for the same. It also creates a map for the title and the document id along with its offset. Apart from this it also creates the vocabulary List
 
 In order to run this code run the following:
 **python wikiIndexer.py ./sampleText ./outputFolderPath**
 
-*search.py
+* search.py
 This function takes as input the query and returns the top ten results from the Wikipedia corpus.
 
 In order to run this code run the following:
@@ -35,8 +35,8 @@ In order to run this code run the following:
 
 ###Helper Functions:
 
-*textProcessing.py 
+* textProcessing.py 
 This helper function does all the preprocessing. It acts as helper for search.py, wikiIndexer.py
 
-*fileHandler.py
+* fileHandler.py
 This function does all the file preprocessing. It acts as helper for wikiIndexer.py
